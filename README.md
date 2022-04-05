@@ -8,7 +8,7 @@ This repository sharing my practice on Reinforcement Learning (RL) in the VIZDOO
 ### Logs:
 2022-04-05 Uploaded ***VIZDoom - Basic - 220405.ipynb***
 
-<img src='image/VIZDOOM_screen.png' width='250px'/>
+<img src='http://vizdoom.cs.put.edu.pl/user/pages/01.tutorial/basic.png' width='250px'/>
 
 ***Executive Summary:***
 
