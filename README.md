@@ -4,8 +4,18 @@ This repository sharing my practice on Reinforcement Learning (RL) in the VIZDOO
 
 ### Different Environments provided in VIZDOOM:
 1. Basic
+2. Deadly Corridor
 
 ### Logs:
+
+2022-04-05 Uploaded ***Reward Shaping and Curriculum Learning in Reinforcement Learning - 220409.ipynb***
+
+***Executive Summary:***
+
+In this notebook, I'm using ***the environment in the ViZDoom - Deadly Corridor*** to ***practice how to apply Reward Shaping and Curriculum Learning reinforcement learning***. The purpose of the Deadly Corridor scenario is to ***teach the agent to navigate towards his fundamental goal*** (the vest) and ***make sure he survives at the same time***. The ***reward formula*** in this notebook is ***(movement_reward) + (health_delta * 10) + (HITCOUNT_delta * 300) + (ammo_delta * 5)***. To ***use HITCOUNT instead of HITS_TAKEN*** are the key successful factor during the learning process. Right after ***applied 1.5 million timesteps of curriculum learning in 5 difference levels of difficulty of learning***, the ***agent received average reward: 420 in level 5 of difficulty***. Although ***the player didn't reach the goal*** (the vest), but ***it keep moving forward quickly*** and ***taking shoots during the game***. 
+
+----------------------------------------------------------------------------------------------------------
+
 2022-04-05 Uploaded ***VIZDoom - Basic - 220405.ipynb***
 
 <img src='http://vizdoom.cs.put.edu.pl/user/pages/01.tutorial/basic.png' width='250px'/>
